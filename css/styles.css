@@ -1,0 +1,18 @@
+.text {
+    padding: 20px;
+}
+
+.bruecke {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.bottom-container {
+    padding: 10px;
+    background-color: #088A29;
+}
+
+h1 {
+    padding: 20px;
+}
