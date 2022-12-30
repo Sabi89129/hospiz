@@ -2,8 +2,21 @@
     background-color: #06641E;
 }
 
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
 .text {
-    padding: 3%;
+    padding: 1%;
+    text-align:justify;
 }
 
 .bruecke {
@@ -15,6 +28,24 @@
 .bottom-container {
     padding: 10px;
     background-color: #06641E;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.langenau-image {
+    width: 100%;
+    max-width: 200px;
+}
+
+.tor-image {
+    width: 100%;
+    max-width: 200px;
+}
+
+.round-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -32,6 +63,6 @@ hr {
 
 .Telefon {
     font-weight: bold;
-    font-size: 2.0em;
+    font-size: 1.6em;
     padding-left: 5px;
 }
