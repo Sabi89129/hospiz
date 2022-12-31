@@ -25,6 +25,12 @@
     z-index: 1;
 }
 
+.row {
+    padding: 0 4%;
+}
+
+
+
 .bottom-container {
     padding: 10px;
     background-color: #06641E;
@@ -32,15 +38,21 @@
     padding-top: 15px;
 }
 
-.langenau-image {
-    width: 100%;
+.herzchenreihe {
+    width: 17%;
     max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.tor-image {
+.herzchen {
     width: 100%;
     max-width: 200px;
+    justify-content: center;
 }
+
 
 .round-image {
     display: flex;
@@ -49,7 +61,7 @@
 }
 
 h1 {
-    padding: 20px;
+    padding: 2% 0; 
 }
 
 hr {
@@ -61,8 +73,7 @@ hr {
     margin: auto;
 }
 
-.Telefon {
+.Betonung {
     font-weight: bold;
-    font-size: 1.6em;
     padding-left: 5px;
 }
