@@ -1,3 +1,13 @@
+/* HTML Elements */
+
+h1 {
+    padding: 2% 0; 
+}
+
+
+
+/* Navigationbar */
+
 .navbar {
     background-color: #06641E;
 }
@@ -11,31 +21,52 @@
 }
 
 .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    padding-left: 10px;
 }
+
+
+
+
+/* General */ 
+
+.row {
+    padding: 0 4%;
+}
+
+.bottom-container {
+    padding: 15px 10px 10px 10px;
+    background-color: #06641E;
+    color: #cfe7c5;
+}
+
+
+
+
+
+
+/* Text */
 
 .text {
     padding: 1%;
     text-align:justify;
 }
 
+.betonung {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+/* Images */
+
 .bruecke {
     max-width: 100%;
     height: auto;
-    z-index: 1;
-}
-
-.row {
-    padding: 0 4%;
-}
-
-
-
-.bottom-container {
-    padding: 10px;
-    background-color: #06641E;
-    color: #fff;
-    padding-top: 15px;
 }
 
 .herzchenreihe {
@@ -54,26 +85,11 @@
 }
 
 
-.round-image {
+.icon-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
-    padding: 2% 0; 
-}
 
-hr {
-    border-color: #06641E;
-    color: #06641E;
-    border-style: dotted none none;
-    border-width: 5px;
-    width: 5%;
-    margin: auto;
-}
 
-.Betonung {
-    font-weight: bold;
-    padding-left: 5px;
-}
