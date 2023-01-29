@@ -76,10 +76,17 @@ body {
 
 /* Images */
 
-.bruecke {
+.header {
     max-width: 100%;
     height: auto;
 }
+
+.header-logo {
+    max-width: 100%;
+    height: auto;
+    padding-right: 4.8%;
+}
+
 
 .pusteblumen {
     width: 45%;
@@ -90,7 +97,7 @@ body {
 
 }
 
-.herzchen {
+.langenau {
     width: 100%;
     max-width: 200px;
     justify-content: center;
