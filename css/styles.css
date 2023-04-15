@@ -71,6 +71,10 @@ body {
     font-size: large;
 }
 
+.kleiner_text {
+    font-size: small;
+}
+
 .text-indent {
     /* text-align:justify; */
 
