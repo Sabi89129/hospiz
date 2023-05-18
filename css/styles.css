@@ -66,9 +66,9 @@ body {
 
 .text {
     /* text-align:justify; */
-
     padding: 2%;
     font-size: large;
+    hyphens: auto;
 }
 
 .kleiner_text {
@@ -123,10 +123,16 @@ body {
 
 
 .icon-image {
-    display: block;
+    display: flex;
     justify-content: center; 
-    align-items: top; 
+    align-items: center; 
 }
+
+.accordion-button.active {
+    background-color: red;
+  }
+  
+  
 
 
 
