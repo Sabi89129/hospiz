@@ -6,8 +6,15 @@ h1 {
     color: #216d22;
 }
 
-h2,h3,h4 {
+h2 {
     font-weight: bold;
+    font-size:x-large;
+    color: #216d22;
+}
+
+h3,h4 {
+    font-weight: bold;
+    font-size: large;
     color: #216d22;
 }
 
