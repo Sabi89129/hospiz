@@ -78,6 +78,12 @@ body {
     hyphens: auto;
 }
 
+.text-klein {
+    /* text-align:justify; */
+    font-size: medium;
+}
+
+
 .zitat {
     font-style: italic;
 }
