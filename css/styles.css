@@ -23,11 +23,14 @@ body {
 }
 
 
-
 /* Navigationbar */
 
+.fixed-top {
+    right: 5%;
+}
+
 .navbar-container {
-    padding-right: 4.8%;
+    padding-right: 4.9%;
 }
 
 .navbar {
