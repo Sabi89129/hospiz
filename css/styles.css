@@ -88,8 +88,13 @@ body {
 
 .text-indent {
     /* text-align:justify; */
-
     padding: 0 6%;
+    font-size: large;
+}
+
+.text-noindent {
+    /* text-align:justify; */
+    padding: 0 0%;
     font-size: large;
 }
 
@@ -98,6 +103,10 @@ body {
     padding-left: 5px;
 }
 
+.betonung_ds {
+    font-weight: bold;
+    padding-right: 5px;
+}
 
 .waswirmachen {
     color: #216d22;
