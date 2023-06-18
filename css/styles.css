@@ -78,6 +78,10 @@ body {
     hyphens: auto;
 }
 
+.zitat {
+    font-style: italic;
+}
+
 .kleiner_text {
     font-size: small;
 }
@@ -144,7 +148,11 @@ body {
     background-color: red;
   }
   
-  
+  .portraits {
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+  }
 
 
 
