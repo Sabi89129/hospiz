@@ -29,9 +29,18 @@ body {
     right: 5%;
 }
 
+@media (max-width: 578px) {
+    .fixed-top {
+        right: 1%;
+    }
+}
+
 .navbar-container {
     padding-right: 4.9%;
 }
+
+
+
 
 .navbar {
     /* background-color: #06641E; den hatte ich gewählt */
@@ -141,10 +150,8 @@ body {
 }
 
 .header-logo {
-    max-width: 100%;
-    height: auto;
-    padding-right: 1.4%;
-    padding-top: 55px;
+    width: 100vw;
+    padding-top: 3.5rem;
 }
 
 
