@@ -31,7 +31,7 @@ body {
 
 @media (max-width: 578px) {
     .fixed-top {
-        right: 1%;
+        width: 100vw;
     }
 }
 
