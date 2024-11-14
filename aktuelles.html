@@ -81,18 +81,45 @@
 
         <div class="col-lg-9 col-md-9 col-sm-9  col-xs-12">
 
+            <h4>Ein Koffer geht auf Reisen</h4>
+            <p class="text">Unsere Hospizgruppe stellt sich und Ihre Arbeit vor. <br><br>
+            Dank der Kooperation mit der Buchhandlung Mahr können wir 
+            unsere Arbeit im Rahmen der Lesereihe <em>"bewusst älter werden"</em> 
+            präsentieren. Den Auftakt machte  am 13.11.2024 die Lesung mit Volker 
+            Kitz und seinem Buch <em>"Alte Eltern"</em> </p>
+
+            <div class="gallery-container">
+                <img src="images/volkerkitz1.jpg" alt="Volker Kitz" onclick="openModal('images/volkerkitz1.jpg')">
+                <img src="images/volkerkitz2.jpg" alt="Koffer der Hozpitzgruppe" onclick="openModal('images/volkerkitz2.jpg')">
+                <img src="images/volkerkitz3.jpg" alt="Pfleghofsaal Langenau" onclick="openModal('images/volkerkitz3.jpg')">
+                <img src="images/volkerkitz4.jpg" alt="Bücher von Volker Kitz" onclick="openModal('images/volkerkitz4.jpg')">
+            </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Full-size image" class="img-fluid">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
             <h4> Öffentliche Termine </h4>
             <p class="text"> <b>Sonntagskaffee für Trauernde</b> im Tagescafe im Sonnenhof
                 (barrierefrei) ab 15:00 Uhr <br>
                 &#10073;
-                03.11. &#10073;
                 01.12. &#10073;
                 02.02. &#10073;
             </p>
             <p class="text"> <b>Trauerspaziergänge</b>, Freitag 15:00-16:00, Parkplatz Naturfreundehaus ab 15:00 Uhr bei
-                jeder Witterung <br>
+                jeder Witterung. <br>
                 &#10073;
-                18.10. &#10073;
                 15.11. &#10073;
                 20.12. &#10073;
                 17.01. &#10073;
@@ -130,26 +157,32 @@
 
             <p><img class="pusteblumen" src="images/pusteblumenreihe.png" alt="">
             </p>
-
+            <h4>Nicht-öffentliche Termine</h4>
             <p class="text">
-                Die folgenden Termine sind nur für Mitarbeiter:innen der Hospizgruppe.
+            Die folgenden Termine sind nur für Mitarbeiter:innen der Hospizgruppe.
             </p>
-            <h4>Supervision</h4>
-            <p class="text"> Mittwoch, 18:00 in der Bahnhofstr. <br>
+
+            <p class="text"> <b>Supervision</b>, Mittwoch, 18:00 in der Bahnhofstr. <br>
                 &#10073;
-                13.11. &#10073;
                 11.12. &#10073;
+                15.01.2025 &#10073;
+                12.02. &#10073;
+                12.03. &#10073;
+                09.04. &#10073;
+                07.05. &#10073;
             </p>
 
-            <h4> Gruppenabend</h4>
-            <p class="text"> Mittwoch, 18:00 in der Bahnhofstr. <br>
+            <p class="text"> <b>Gruppenabend</b>, Mittwoch, 18:00 in der Bahnhofstr. <br>
                 &#10073;
-                30.10. &#10073;
+                29.01. - Gedenkfeier &#10073;
+                26.02. &#10073;
+                26.03. &#10073;
+                30.04. &#10073;
+                21.05. &#10073;
+                04.06. &#10073;
             </p>
 
-
-            <h4> Weihnachtsfeier</h4>
-            <p class="text"> Ort wird noch bekannt gegeben. <br>
+            <p class="text"> <b>Weihnachtsfeier</b>, Ort wird noch bekannt gegeben.<br>
                 &#10073;
                 04.12. &#10073;
             </p>
@@ -158,12 +191,21 @@
 
 
 
-
-
         </div>
     </div>
-
     <br>
+
+
+
+    <script>
+        // Funktion zum Öffnen des Modals und Laden des Bildes
+        function openModal(src) {
+            document.getElementById('modalImage').src = src;
+            $('#imageModal').modal('show');
+        }
+    </script>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
